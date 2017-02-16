@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">看看</string>
+    <string name="one_text">看看</string>
+    <string name="zhihu">知乎日报</string>
+    <string name="topnews">头条新闻</string>
+    <string name="meizi">每日看看</string>
+    <string name="filter">打开</string>
+    <string name="about">关于</string>
+    <string name="nevigation_item">nevigation_item</string>
+    <string name="transition_shot_background">shot_background</string>
+    <string name="transition_shot" translatable="false">shot</string>
+    <string name="snack_infor">请检查网络</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zhihu_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/mid_grey_ripple"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/item_margin"
+    android:paddingTop="@dimen/item_margin"
+    android:stateListAnimator="@animator/raise"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/item_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="5dp" />
+
+    <TextView
+        android:id="@+id/item_text_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:stateListAnimator="@animator/raise"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size" />
+</LinearLayout>
